@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Roatava_AI.png" width="700" alt="RotaVA">
+  <img src="Rotava_AI.png" width="700" alt="RotaVA">
 </p>
 
 # RotaVA
