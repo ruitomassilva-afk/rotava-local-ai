@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Roatava_AI.png" width="700" alt="RotaVA">
+</p>
+
 # RotaVA
 
 RotaVA é um assistente local de Inteligência Artificial com suporte para Retrieval-Augmented Generation (RAG), desenvolvido em Python e com uma interface Web própria.
@@ -70,77 +74,3 @@ Interface Web
 Autor
 Rui Miguel Silva
 
-
----
-
-### `.gitignore`
-
-```gitignore
-__pycache__/
-*.pyc
-
-rag_index.json
-
-.vscode/
-.idea/
-
-Thumbs.db
-.DS_Store
-```
-
----
-
-## Configuração
-
-O servidor utiliza os seguintes parâmetros por defeito:
-
-Parâmetro	Valor
-Porta	8080
-Embedding Model	nomic-embed-text
-Chat Model	qwen3:4b
-Execução
-bash
-Copy
-python rag_server.py
-Depois abrir:
-
-http://localhost:8080
-Arquitetura
-Documentos TXT
-       │
-       ▼
-Chunking
-       │
-       ▼
-Embeddings (Ollama)
-       │
-       ▼
-Índice JSON
-       │
-       ▼
-Pesquisa Semântica
-       │
-       ▼
-Interface Web
-Autor
-Rui Miguel Silva
-
-
----
-
-### `.gitignore`
-
-```gitignore
-__pycache__/
-*.pyc
-
-rag_index.json
-
-.vscode/
-.idea/
-
-Thumbs.db
-.DS_Store
-```
-
----
