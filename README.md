@@ -93,3 +93,54 @@ Thumbs.db
 ## Configuração
 
 O servidor utiliza os seguintes parâmetros por defeito:
+
+Parâmetro	Valor
+Porta	8080
+Embedding Model	nomic-embed-text
+Chat Model	qwen3:4b
+Execução
+bash
+Copy
+python rag_server.py
+Depois abrir:
+
+http://localhost:8080
+Arquitetura
+Documentos TXT
+       │
+       ▼
+Chunking
+       │
+       ▼
+Embeddings (Ollama)
+       │
+       ▼
+Índice JSON
+       │
+       ▼
+Pesquisa Semântica
+       │
+       ▼
+Interface Web
+Autor
+Rui Miguel Silva
+
+
+---
+
+### `.gitignore`
+
+```gitignore
+__pycache__/
+*.pyc
+
+rag_index.json
+
+.vscode/
+.idea/
+
+Thumbs.db
+.DS_Store
+```
+
+---
